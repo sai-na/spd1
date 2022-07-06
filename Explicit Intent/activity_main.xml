@@ -4,33 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    >
 
-   <Button
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="Dial"
-       android:id="@+id/dail"
-       />
-    <Button
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gallery"
-        android:id="@+id/gallery"
+        android:hint="Enter user name"
+        android:id="@+id/uname"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="passsword"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="GEO"
-        android:id="@+id/geo"
+        android:text="Login"
+        android:id="@+id/login"
         />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="WEB"
-        android:id="@+id/web"
-        />
-
 </LinearLayout>
