@@ -1,20 +1,20 @@
 package com.example.explicitintent;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class page2 extends AppCompatActivity {
-    TextView val;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page2);
+  TextView val;
 
-        String v=getIntent().getStringExtra("user");
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_page2);
 
-        val=findViewById(R.id.wel);
-        val.setText("Hello," +v);
-    }
+    String v = getIntent().getStringExtra("user");
+
+    val = findViewById(R.id.wel);
+    val.setText("Hello," + v);
+  }
 }

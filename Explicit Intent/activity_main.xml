@@ -1,32 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:gravity="center"
-    >
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity"
+  android:orientation="vertical"
+  android:gravity="center"
+>
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter user name"
-        android:id="@+id/uname"
-        android:inputType="text"
-        />
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter user name"
+    android:id="@+id/uname"
+    android:inputType="text"
+  />
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="passsword"
-        android:inputType="textPassword"
-        android:id="@+id/pass"
-        />
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="passsword"
+    android:inputType="textPassword"
+    android:id="@+id/pass"
+  />
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/login"
-        />
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:id="@+id/login"
+  />
 </LinearLayout>
